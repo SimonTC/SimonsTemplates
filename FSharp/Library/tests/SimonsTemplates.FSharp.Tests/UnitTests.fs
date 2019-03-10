@@ -2,8 +2,8 @@ namespace SimonsTemplates.FSharp.Tests
 open SimonsTemplates.FSharp
 open NUnit.Framework
 
-[<TestClass>]
-type TestClass () =
+[<TestFixture>]
+type UnitTests () =
 
     [<SetUp>]
     member this.Setup () =
