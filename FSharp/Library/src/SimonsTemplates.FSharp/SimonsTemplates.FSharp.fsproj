@@ -6,5 +6,8 @@
   <ItemGroup>
     <Compile Include="Library.fs" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Scratchpad.fsx" />
+  </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
 </Project>
