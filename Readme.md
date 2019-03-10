@@ -28,7 +28,7 @@ dotnet new fsharp-scaffold
 ```
 You can also let the folder be auto created:
 ```
-dotnet new fsharp-scaffold -n MyNewFSharpProject
+dotnet new fsharp-scaffold -o MyNewFSharpProject
 cd MyNewFSharpProject
 ```
 
