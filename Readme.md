@@ -92,7 +92,6 @@ dotnet new -u "D:\projects\SimonsTemplates"
 #### This project uses the following projects:
 * [Paket](https://fsprojects.github.io/Paket/)
 * [FAKE](https://fsharp.github.io/FAKE/)
-* Heavily inspired by [MiniScaffold](https://github.com/TheAngryByrd/MiniScaffold)
+* Inspired by [MiniScaffold](https://github.com/TheAngryByrd/MiniScaffold)
 * [NUnit](https://github.com/nunit/nunit)
 * [FsCheck](https://github.com/fscheck/FsCheck)
-* [FluentAssertions](https://github.com/fluentassertions/fluentassertions)

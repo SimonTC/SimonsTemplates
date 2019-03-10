@@ -21,7 +21,6 @@ group Testing
     nuget NUnit3TestAdapter
     nuget Microsoft.NET.Test.Sdk
     nuget FsCheck.Nunit
-    nuget FluentAssertions
     
 // This group should not be used in any paket.references files.
 // It is only here to add dependencies that are specific to scripts being used.

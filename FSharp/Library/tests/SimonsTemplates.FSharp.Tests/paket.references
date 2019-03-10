@@ -4,4 +4,3 @@ group Testing
     NUnit3TestAdapter
     Microsoft.NET.Test.Sdk
     FsCheck.Nunit
-    FluentAssertions
