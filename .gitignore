@@ -1,2 +1,7 @@
 # IDE specific stuf
 .idea
+
+# Paket stuff
+# This is not ignored in the created project but should be ignored here to not pollute it
+FSharp/Library/.paket
+FSharp/Library/paket.lock
