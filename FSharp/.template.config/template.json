@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "Simon T. Clement",
-  "classifications": [ "Scaffold", "sln" ],
+  "classifications": [ "Scaffold" ],
   "name": "FSharpScaffold",
   "tags": {
     "language": "F#"
