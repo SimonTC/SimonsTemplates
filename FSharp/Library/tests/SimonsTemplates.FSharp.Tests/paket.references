@@ -1,2 +1,7 @@
-group Tests
+group Testing
     FSharp.Core
+    Nunit
+    NUnit3TestAdapter
+    Microsoft.NET.Test.Sdk
+    FsCheck.Nunit
+    FluentAssertions

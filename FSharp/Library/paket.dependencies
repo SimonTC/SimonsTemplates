@@ -10,13 +10,18 @@ group Main
     
     nuget FSharp.Core
 
-group Tests
+group Testing
     source https://www.nuget.org/api/v2
     source https://api.nuget.org/v3/index.json
     storage: none
     framework: auto-detect
     
     nuget FSharp.Core
+    nuget Nunit
+    nuget NUnit3TestAdapter
+    nuget Microsoft.NET.Test.Sdk
+    nuget FsCheck.Nunit
+    nuget FluentAssertions
     
 // This group should not be used in any paket.references files.
 // It is only here to add dependencies that are specific to scripts being used.
