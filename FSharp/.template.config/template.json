@@ -1,0 +1,57 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Simon T. Clement",
+  "classifications": [ "Scaffold", "sln" ],
+  "name": "FSharpScaffold",
+  "tags": {
+    "language": "F#"
+  },
+  "identity": "FSharpScaffold",
+  "shortName": "fsharp-scaffold",
+  "sourceName": "SimonsTemplates.FSharp",
+  // This allows using the `-n` option to create a new directory
+  "preferNameDirectory": true,
+  "symbols": {
+    "githubUsername": {
+      "type": "parameter",
+      "replaces": "MyGithubUsername"
+    },
+    // Here the user can define which kind of scaffolding to create
+    "outputType": {
+      "type": "parameter",
+      "dataType": "choice",
+      "defaultValue": "library",
+      "choices": [
+        {
+          "choice": "library",
+          "description": "Creates a template for library projects"
+        }
+      ]
+    }
+  },
+  // Here you set what source is used for creating the scafolding
+  "sources": [
+    {
+      "source": "./Library/",
+      "target": "./",
+      "condition": "(outputType == \"library\")",
+    }
+  ],
+  // Make sure .sh scripts can be run
+  "postActions": [
+    {
+      "condition": "(OS != \"Windows_NT\")",
+      "description": "Make scripts executable",
+      "manualInstructions": [
+        {
+          "text": "Run 'chmod +x *.sh'"
+        }
+      ],
+      "actionId": "cb9a6cf3-4f5c-4860-b9d2-03a574959774",
+      "args": {
+        "+x": "*.sh"
+      },
+      "continueOnError": true
+    }
+  ]
+}
